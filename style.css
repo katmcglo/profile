@@ -1,0 +1,89 @@
+body {
+background-color: #E8D2AE;
+font-family: 'Open Sans', sans-serif;
+color: #241623;
+font-size: 20px;
+line-height: 18px;
+}
+
+h1 {
+  color: #8A4A34;
+  font-family: 'Galada', cursive;
+  font-size: 32px;
+  
+}
+
+h2 {
+color: #8A4A34;
+font-family: 'Galada', cursive;
+font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: #362320;
+}
+
+a:hover {
+  color: #8A4A34;
+  background-color: #E8D2AE;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  margin: 20px auto;
+  background-color: #FDF8D4;
+  width: 600px;
+  padding: 30px 0px;
+  box-shadow: 2px 2px #c5907e59;
+  border-radius: 2%;
+}
+
+.image-circle {
+border-radius: 50%;
+}
+
+.btn-chestnut {
+  background-color: #8A4A34;
+  padding: 7px;
+  border-radius: 10px;
+  color: #E8D2AE;
+  font-size: 15px;
+}
+
+.inline-list {
+list-style: none;
+padding-left: 0px;
+}
+.inline-list > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 720px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 540px;
+  }
+  .card {
+    width: 540px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 500px
+  }
+
+  .card {
+    width: 470px;
+  }
+}
